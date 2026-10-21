@@ -49,14 +49,24 @@ The dataset contains **148 restaurant records and 7 columns**.
 4. **Data Visualization** — Used Matplotlib and Seaborn to create charts that make patterns easier to understand.
 5. **Insight Exploration** — Examined relationships between restaurant characteristics and customer preferences.
 
-## 📈 Key Areas of Analysis
+## 📊 Key Findings
 
-- Restaurant category distribution
-- Online ordering availability
-- Table booking availability
-- Restaurant rating distribution
-- Customer voting patterns
-- Approximate cost for two people
+Analysis of the 148 restaurant records revealed the following patterns:
+
+- **Restaurant Category:** Dining is the most common category, with 110 restaurants (74.3%), followed by Cafes (23), other (8), and Buffet (7).
+- **Customer Engagement:** Empire Restaurant received the highest number of customer votes among the restaurants in the dataset.
+- **Restaurant Ratings:** The average rating is **3.63**, while the median rating is **3.7**.
+- **Online Ordering:** Restaurants that offer online ordering have an average rating of **3.86**, compared with **3.49** for restaurants without online ordering.
+- **Table Booking:** Only 8 restaurants offer table booking, while 140 do not.
+- **Cost for Two:** The most frequently listed approximate cost is **₹300**, appearing 23 times.
+- **Online Ordering by Category:** Online ordering is more common among Cafes (15 of 23) than Dining restaurants (33 of 110) in this dataset.
+
+### 💡 Conclusion
+
+The analysis shows that Dining restaurants dominate the dataset, while online ordering availability varies by restaurant category. Restaurants offering online ordering also have higher average ratings in this sample, although this relationship does not establish causation. Table booking is relatively uncommon among the restaurants analyzed.
+
+*These findings are based on the 148-record public replacement dataset used to rerun the notebook.*
+
 
 The notebook contains the analysis code, charts, and outputs used to explore these areas.
 
