@@ -1,58 +1,97 @@
-# Zomato Data Analysis
+# 🍽️ Zomato Data Analysis using Python
 
-## Project Overview
+An exploratory data analysis (EDA) project focused on understanding restaurant trends, customer preferences, ratings, and online ordering patterns using Python.
 
-This project explores Zomato restaurant data using Python and data analysis techniques to identify patterns and insights about restaurants, ratings, pricing, and other available attributes.
+## 📌 Project Overview
 
-The goal is to clean, analyze, and visualize the dataset to better understand restaurant-related trends.
+This project explores restaurant data from Zomato to identify patterns in restaurant types, customer engagement, ratings, pricing, and service availability. Using Python libraries for data analysis and visualization, the project transforms raw data into meaningful insights through charts and exploratory analysis.
 
-## Objectives
+## 🎯 Objectives
 
-- Explore and understand the dataset.
-- Perform data cleaning and preprocessing.
-- Analyze restaurant attributes and distributions.
-- Identify patterns in ratings and pricing, where supported by the dataset.
-- Create visualizations to communicate insights.
+- Analyze the distribution of different restaurant types.
+- Explore online ordering and table booking availability.
+- Understand restaurant rating patterns.
+- Examine customer engagement using vote counts.
+- Investigate approximate restaurant costs for two people.
+- Present findings through clear and informative visualizations.
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- **Programming Language:** Python
+- **Data Manipulation:** Pandas, NumPy
+- **Data Visualization:** Matplotlib, Seaborn
+- **Development Environment:** Google Colab, Jupyter Notebook
+- **Version Control:** Git, GitHub
 
-## Project Workflow
+## 📊 Dataset Description
 
-1. Load the dataset.
-2. Inspect the data structure and identify missing or inconsistent values.
-3. Clean and preprocess the data.
-4. Perform exploratory data analysis (EDA).
-5. Create visualizations.
-6. Interpret the results and summarize key findings.
+The dataset contains **148 restaurant records and 7 columns**.
 
-## Notebook
+| Column | Description |
+|---|---|
+| `name` | Restaurant name |
+| `online_order` | Online ordering availability |
+| `book_table` | Table booking availability |
+| `rate` | Restaurant rating |
+| `votes` | Number of customer votes |
+| `approx_cost(for two people)` | Approximate cost for two people |
+| `listed_in(type)` | Restaurant category |
 
-The complete analysis, Python code, and available visualizations are provided in [`Zomato_Analysis.ipynb`](Zomato_Analysis.ipynb).
+**Dataset source:** [Public Zomato dataset on GitHub](https://github.com/Shreyagupta-31/Zomato-Data-Analysis)
 
-## How to Run
+*Note: The original local dataset file was unavailable, so a publicly available replacement dataset with the expected structure was used to rerun the analysis.*
 
-1. Clone or download this repository.
-2. Open `Zomato_Analysis.ipynb` in Google Colab or Jupyter Notebook.
-3. Upload or configure access to the dataset required by the notebook.
-4. Run the cells in order.
+## 🔍 Project Workflow
 
-## Key Findings
+1. **Data Loading** — Imported the dataset into Python using Pandas.
+2. **Data Inspection** — Examined dataset dimensions, column names, data types, and missing values.
+3. **Exploratory Data Analysis** — Investigated restaurant categories, ratings, votes, pricing, and service availability.
+4. **Data Visualization** — Used Matplotlib and Seaborn to create charts that make patterns easier to understand.
+5. **Insight Exploration** — Examined relationships between restaurant characteristics and customer preferences.
 
-Key findings should be added here based on the actual results and visualizations produced in the notebook.
+## 📈 Key Areas of Analysis
 
-## Author
+- Restaurant category distribution
+- Online ordering availability
+- Table booking availability
+- Restaurant rating distribution
+- Customer voting patterns
+- Approximate cost for two people
 
-**Harika Mettu**
+The notebook contains the analysis code, charts, and outputs used to explore these areas.
 
-GitHub: [Harika25-28](https://github.com/Harika25-28)
+## 📂 Project Structure
 
-## Disclaimer
+```text
+Zomato-Data-Analysis/
+│
+├── README.md
+└── Zomato_Analysis.ipynb
+```
 
-This project is intended for educational and data analysis purposes.
+## 🚀 How to Run the Project
+
+1. Open the notebook: [`Zomato_Analysis.ipynb`](./Zomato_Analysis.ipynb).
+2. Open it in Google Colab or Jupyter Notebook.
+3. Run the code cells in sequence.
+4. Review the generated charts and analysis outputs.
+
+The notebook loads the dataset directly from its public GitHub URL, so a separate local CSV file is not required.
+
+## 💡 Skills Demonstrated
+
+- Python programming
+- Data inspection and validation
+- Exploratory data analysis (EDA)
+- Data manipulation with Pandas and NumPy
+- Data visualization with Matplotlib and Seaborn
+- Interpreting data patterns
+- Documenting and publishing projects on GitHub
+
+## 👩‍💻 Author
+
+**Harika**
+
+B.Tech Graduate | Aspiring Data Analyst
+
+[GitHub Profile](https://github.com/Harika25-28)
